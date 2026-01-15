@@ -4,13 +4,34 @@
     "href": "index.html",
     "title": "temp_website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "hi! i love basketball and my favourite team is golden state warriors! my favourite food is escargot."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "FYP",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Reflection.html",
+    "href": "Reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "I used chatGPT for troubleshooting when I faced difficulties with the steps or did not know how to continue. I found it useful because it gave me quick and fast replies and helped me to troubleshoot fast"
+  },
+  {
+    "objectID": "FYP project.html",
+    "href": "FYP project.html",
+    "title": "FYP",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Data visualisation.html",
+    "href": "Data visualisation.html",
+    "title": "Data visualisation",
+    "section": "",
+    "text": "This visualization presents quantitative data from my student life, focusing on how my study time changed over several weeks. The goal of this visualization is to clearly communicate numerical differences and trends using a simple graphical representation.\nThe graph visualizes: - Weekly study hours (numerical values) - Across a five-week period\n\n\nlibrary(ggplot2)\n\ndata &lt;- data.frame(\n  Week = c(\"Week 1\", \"Week 2\", \"Week 3\", \"Week 4\", \"Week 5\"),\n  Study_Hours = c(8, 10, 12, 14, 15)\n)\n\nggplot(data, aes(x = Week, y = Study_Hours)) +\n  geom_line(group = 1) +\n  geom_point(size = 3) +\n  labs(\n    title = \"Weekly Study Hours Over Time\",\n    x = \"Week\",\n    y = \"Hours Studied\"\n  ) +\n  theme_minimal()"
   }
 ]

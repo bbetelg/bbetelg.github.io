@@ -1,0 +1,6 @@
+---
+title: "Reflection"
+format: html
+---
+
+I used chatGPT for troubleshooting when I faced difficulties with the steps or did not know how to continue. I found it useful because it gave me quick and fast replies and helped me to troubleshoot fast

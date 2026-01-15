@@ -1,0 +1,33 @@
+---
+title: "Data visualisation"
+format: html
+---
+
+
+This visualization presents quantitative data from my student life, focusing on how my study time changed over several weeks. The goal of this visualization is to clearly communicate numerical differences and trends using a simple graphical representation.
+
+The graph visualizes:
+- **Weekly study hours** (numerical values)
+- Across a **five-week period**
+
+---
+
+```{r}
+library(ggplot2)
+
+data <- data.frame(
+  Week = c("Week 1", "Week 2", "Week 3", "Week 4", "Week 5"),
+  Study_Hours = c(8, 10, 12, 14, 15)
+)
+
+ggplot(data, aes(x = Week, y = Study_Hours)) +
+  geom_line(group = 1) +
+  geom_point(size = 3) +
+  labs(
+    title = "Weekly Study Hours Over Time",
+    x = "Week",
+    y = "Hours Studied"
+  ) +
+  theme_minimal()
+```
+
